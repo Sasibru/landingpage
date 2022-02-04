@@ -36,7 +36,7 @@ ul {
 li {
     display: flex;
     list-style-type: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: lighter;
 }
 
@@ -50,4 +50,48 @@ a {
     display: flex;
     margin-left: auto;
     margin-right: 80px;
+}
+
+.hero-container {
+    display: flex;
+    background-color: #1f2937;
+    padding: 80px 64px;
+}
+
+.website-info {
+    margin-left: 152px;
+    margin-right: 128px;
+    box-sizing: border-box; 
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FaF8;
+}
+
+.website-info p {
+    font-size: 18px;
+    color: #cbced3;
+}
+
+.hero-button{
+    background-color: #3882f6;
+    color: white;
+    font-size: 14px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: 1px black;
+    
+}
+
+.image {
+    padding-left: 16px;
+}
+
+img {
+    max-width: 400px;
+    height: auto;
 }
