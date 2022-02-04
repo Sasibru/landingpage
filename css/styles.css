@@ -59,6 +59,7 @@ a {
 }
 
 .website-info {
+    display: flex;
     margin-left: 152px;
     margin-right: 128px;
     box-sizing: border-box; 
@@ -88,7 +89,10 @@ a {
 }
 
 .image {
-    padding-left: 16px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 64px;
+
 }
 
 img {
