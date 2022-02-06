@@ -8,19 +8,20 @@ body {
 }
 
 .header {
-    display: inline-flex;
+    display: flex;
     flex-direction:row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    font-weight: bold;
     background-color: #1f2937;
-    padding: 16px 128px;
+    padding: 16px 256px;
+    min-width: 128px;
 }
 
 .header-logo {
     display: flex;
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 
@@ -28,7 +29,7 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 8px;
+    gap: 16px;
     align-items: center;
 }
 
@@ -136,8 +137,9 @@ img {
     color: #68717c;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 120px;
+    max-width: 130px;
     text-align: center;
+    padding-top: 8px;
 }
 
 .container-quote {
