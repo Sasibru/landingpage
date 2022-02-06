@@ -154,6 +154,7 @@ img {
     flex-direction: column;
     padding: 80px;
     background-color: #e5e7eb;
+    flex-wrap: nowrap;
 }
 
 .quote-main {
@@ -162,6 +163,7 @@ img {
     font-style: italic;
     color: rgb(31, 41, 55, 0.7);
     padding: 8px 64px;
+    flex: 1;
 }
 
 .quote-signed {
@@ -172,4 +174,49 @@ img {
     font-size: 20px;
     margin-top: -8px;
     margin-right: 32px;
+}
+
+.container-sign-up {
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FaF8;
+    background-color: #3882f6;
+    padding: 16px 128px;
+}
+
+.call-to-action {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -8px;
+    margin-top: 8px;
+}
+
+.container-sign-up p{
+    font-weight: lighter;
+    color: rgb(249, 250, 248, 0.8);
+
+}
+
+.button-sign-up {
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FaF8;
+    background-color: #3882f6;
+    justify-self: flex-end;
+    padding: 16px 8px;
+    max-width: 120px;
+}
+
+.container-footer {
+    display: flex;
+    background-color: #1f2937;
+    padding: 32px;
+    justify-content: center;
 }
