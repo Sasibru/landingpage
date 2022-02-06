@@ -148,3 +148,28 @@ img {
     max-width: 120px;
     text-align: center;
 }
+
+.container-quote {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    background-color: #e5e7eb;
+}
+
+.quote-main {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(31, 41, 55, 0.7);
+    padding: 8px 64px;
+}
+
+.quote-signed {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -8px;
+    margin-right: 32px;
+}
