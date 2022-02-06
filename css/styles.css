@@ -10,7 +10,6 @@ body {
 .header {
     display: inline-flex;
     flex-direction:row;
-    align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
     font-weight: bold;
@@ -22,7 +21,6 @@ body {
     display: flex;
     color: #F9FAF8;
     font-size: 24px;
-    margin-left: 150px;
 }
 
 
@@ -50,23 +48,17 @@ a {
 .right-links {
     display: flex;
     margin-left: auto;
-    margin-right: 80px;
 }
 
 .hero-container {
     display: flex;
     background-color: #1f2937;
-    padding: 80px 64px;
     flex-shrink: 0;
 }
 
 .website-info {
     display: flex;
-    padding-left: 64px;
-    margin-left: 152px;
-    margin-right: 128px;
     box-sizing: border-box; 
-    max-width: 600px;
     flex-wrap: wrap;
 }
 
@@ -95,7 +87,6 @@ a {
 .image {
     display: flex;
     margin-left: auto;
-    margin-right: 64px;
     padding: 64px 128px;
     flex-shrink: 0;
 }
@@ -179,8 +170,10 @@ img {
 .container-sign-up {
     display: flex;
     flex-direction: column;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding: 128px;
+    max-width: 800px;
+    justify-content: center;
+
 }
 
 .sign-up-text {
@@ -189,6 +182,9 @@ img {
     color: #F9FaF8;
     background-color: #3882f6;
     padding: 16px 128px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
 }
 
 .call-to-action {
@@ -210,6 +206,7 @@ img {
     color: #F9FaF8;
     background-color: #3882f6;
     justify-self: flex-end;
+    margin-left: auto;
     padding: 16px 8px;
     max-width: 120px;
 }
