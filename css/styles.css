@@ -7,6 +7,8 @@ body {
     flex-direction: column;
 }
 
+/* Header section */
+
 .header {
     display: flex;
     flex-direction:row;
@@ -50,6 +52,8 @@ a {
     display: flex;
     margin-left: auto;
 }
+
+/* Hero section*/
 
 .hero-container {
     display: flex;
@@ -97,6 +101,8 @@ img {
     height: auto;
 }
 
+/* Information section */
+
 .container-information {
     display: flex;
     flex-direction: column;
@@ -142,6 +148,8 @@ img {
     padding-top: 8px;
 }
 
+/* Quote section */
+
 .container-quote {
     display: flex;
     flex-direction: column;
@@ -168,6 +176,8 @@ img {
     margin-top: -8px;
     margin-right: 32px;
 }
+
+/* Sign up section */
 
 .container-sign-up {
     display: flex;
@@ -212,6 +222,8 @@ img {
     padding: 16px 8px;
     max-width: 120px;
 }
+
+/* Footer section */
 
 .container-footer {
     display: flex;
